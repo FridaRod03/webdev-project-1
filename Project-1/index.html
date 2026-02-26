@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>     
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Top Navigation-->
+     <div class = "navbar">
+        <div class = "logo">🕊️</div>
+        <h1>Tweeter</h1>
+     </div>
+
+     <!-- Main Content -->
+      <div>
+        <!--Tweet Input-->
+        <div class = "tweet-input">
+            <div class = "profile-pic"></div>
+
+            <div class="tweet-body">
+            <textarea maxlength="160"placeholder="What's happening?"></textarea>
+
+            <div class = "tweet-options">
+                <span id = "charCount">160 characters remaining</span>
+                <button id = "tweetButton">Tweet</button>
+            </div>
+            </div>
+      </div>
+
+      <!--Sample Tweet-->
+        <div class = "tweet">
+            <div class = "profile-pic"></div>
+            <div class = "tweet-content">
+                <div class = "tweet-header">
+                    <strong>Your Name</strong>
+                    <span>@username · 5m</span>
+                </div>
+                <p>Sample tweet goes here.</p>
+                <div class = "tweet-actions">
+                    <span>💬1</span>
+                    <span>🔁2</span>
+                    <span>❤️3</span>
+                    <span>✉️4</span>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!--JAvascript -->
+        <script src="js/script.js"></script>
+</body>
